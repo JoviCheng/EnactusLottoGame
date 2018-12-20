@@ -5,7 +5,7 @@
     </div>
     <div class="inputArea">
       <input class="putInfo" type="text" placeholder="会员服务编号(可在创行微服务中查找)" v-model="memberNum" />
-      <input class="putInfo" type="text" placeholder="会员姓名" v-model="memberName" />
+      <input class="putInfo" type="text" placeholder="会员姓名1" v-model="memberName" />
     </div>
     <div class="btnArea">
       <img class="loginBtn" src="../assets/loginBtn.png" width="100%" @click="login">
